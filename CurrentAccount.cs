@@ -10,7 +10,7 @@ namespace BankingApp
                 return balance;
             }
         }
-        CurrentAccount(){
+        public CurrentAccount(){
             balance = 20000;
         }
         public double Deposit(double amount)

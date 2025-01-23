@@ -1,0 +1,15 @@
+/Users/abubakernaji/Desktop/Courses/CICDTraining/Day4/BankingApp/obj/Debug/net9.0/BankingApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/abubakernaji/Desktop/Courses/CICDTraining/Day4/BankingApp/obj/Debug/net9.0/BankingApp.AssemblyInfoInputs.cache
+/Users/abubakernaji/Desktop/Courses/CICDTraining/Day4/BankingApp/obj/Debug/net9.0/BankingApp.AssemblyInfo.cs
+/Users/abubakernaji/Desktop/Courses/CICDTraining/Day4/BankingApp/obj/Debug/net9.0/BankingApp.csproj.CoreCompileInputs.cache
+/Users/abubakernaji/Desktop/Courses/CICDTraining/Day4/BankingApp/obj/Debug/net9.0/BankingApp.sourcelink.json
+/Users/abubakernaji/Desktop/Courses/CICDTraining/Day4/BankingApp/bin/Debug/net9.0/BankingApp
+/Users/abubakernaji/Desktop/Courses/CICDTraining/Day4/BankingApp/bin/Debug/net9.0/BankingApp.deps.json
+/Users/abubakernaji/Desktop/Courses/CICDTraining/Day4/BankingApp/bin/Debug/net9.0/BankingApp.runtimeconfig.json
+/Users/abubakernaji/Desktop/Courses/CICDTraining/Day4/BankingApp/bin/Debug/net9.0/BankingApp.dll
+/Users/abubakernaji/Desktop/Courses/CICDTraining/Day4/BankingApp/bin/Debug/net9.0/BankingApp.pdb
+/Users/abubakernaji/Desktop/Courses/CICDTraining/Day4/BankingApp/obj/Debug/net9.0/BankingApp.dll
+/Users/abubakernaji/Desktop/Courses/CICDTraining/Day4/BankingApp/obj/Debug/net9.0/refint/BankingApp.dll
+/Users/abubakernaji/Desktop/Courses/CICDTraining/Day4/BankingApp/obj/Debug/net9.0/BankingApp.pdb
+/Users/abubakernaji/Desktop/Courses/CICDTraining/Day4/BankingApp/obj/Debug/net9.0/BankingApp.genruntimeconfig.cache
+/Users/abubakernaji/Desktop/Courses/CICDTraining/Day4/BankingApp/obj/Debug/net9.0/ref/BankingApp.dll

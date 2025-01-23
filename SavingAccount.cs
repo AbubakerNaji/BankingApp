@@ -10,7 +10,7 @@ namespace BankingApp
                 return balance;
             }
         }
-        SavingAcount(){
+        public SavingAcount(){
             balance = 1000;
         }
         public double Deposit(double amount)
