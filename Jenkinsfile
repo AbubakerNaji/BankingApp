@@ -1,7 +1,7 @@
 pipeline {
     agent any
 environment {
-    DOCKER_IMAGE = 'BankingApp'
+    DOCKER_IMAGE = 'banking-app'
     DOCKER_TAG = "${env.BUILD_ID}"
     DOTNET_ROOT = '/usr/local/share/dotnet'
     // Add /usr/local/bin to the PATH for Docker CLI
