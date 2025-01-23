@@ -55,7 +55,7 @@ while (anotherTransaction == "y" && account != null)
     account.Withdraw(withdrawAmount);
     Console.WriteLine($"New balance after withdrawal: {account.Balance}");
 
-    Console.WriteLine("Do you want to perform another transaction? (yes/no)");
+    Console.WriteLine("Do you want to perform another transaction? (y/no)");
     anotherTransaction = Console.ReadLine().ToLower();
 }
 Console.WriteLine("Thank you for using the banking app.");

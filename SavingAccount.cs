@@ -24,7 +24,7 @@ namespace BankingApp
             {
                 if( balance - amount < 1000)
                 {
-                    Console.WriteLine(" You can't withdraw below 1000");
+                    Console.WriteLine("You can't withdraw below 1000");
                 }else{
                     balance -= amount;
                     Console.WriteLine("Withdrawal successful");
