@@ -1,12 +1,12 @@
 pipeline {
     agent any
-
-    environment {
-        DOCKER_IMAGE = 'BankingApp'
-        DOCKER_TAG = "${env.BUILD_ID}"
-               DOTNET_ROOT = '/usr/local/share/dotnet' // Path to the .NET SDK
-       PATH = "${DOTNET_ROOT}:/bin:/usr/bin:/opt/homebrew/bin:${env.PATH}" // Ensure DOTNET_ROOT is added to PATH
-    }
+environment {
+    DOCKER_IMAGE = 'BankingApp'
+    DOCKER_TAG = "${env.BUILD_ID}"
+    DOTNET_ROOT = '/usr/local/share/dotnet'
+    // Add /usr/local/bin to the PATH for Docker CLI
+    PATH = "/usr/local/bin:${DOTNET_ROOT}:/bin:/usr/bin:/opt/homebrew/bin:${env.PATH}"
+}
 
     stages {
         stage('Clone Repository') {
@@ -31,7 +31,7 @@ pipeline {
                 script {
                     // Run your tests here
                     // For example, if you have unit tests, you can run them using dotnet test
-                    bat 'dotnet test' // Ensure you have the necessary test project in your repository
+                    sh 'dotnet test' // Ensure you have the necessary test project in your repository
                 }
             }
         }
