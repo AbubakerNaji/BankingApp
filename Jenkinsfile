@@ -4,6 +4,8 @@ pipeline {
     environment {
         DOCKER_IMAGE = 'BankingApp'
         DOCKER_TAG = "${env.BUILD_ID}"
+               DOTNET_ROOT = '/usr/local/share/dotnet' // Path to the .NET SDK
+       PATH = "${DOTNET_ROOT}:/bin:/usr/bin:/opt/homebrew/bin:${env.PATH}" // Ensure DOTNET_ROOT is added to PATH
     }
 
     stages {
@@ -11,7 +13,8 @@ pipeline {
             steps {
                 script {
                     // Clone the repository containing the .NET Core application
-                    git 'https://github.com/AbubakerNaji/BankingApp.git' // Replace with your repository URL
+                     git branch: 'main', url:'https://github.com/AbubakerNaji/BankingApp.git'
+       
                 }
             }
         }
